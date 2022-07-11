@@ -1,0 +1,23 @@
+{
+    "name": "isavon/yii2-grid",
+    "description": "The Grid extension for the Yii2 Framework",
+    "keywords": ["yii2", "extension", "widget", "grid", "plugin"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Savon",
+            "email": "isavon.we@gmail.com",
+            "homepage": "https://github.com/isavon/yii2-grid",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "isavon\\grid\\": "src"
+        }
+    }
+}
