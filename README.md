@@ -39,7 +39,7 @@ Add ActionColumn to view file.
         'url',
         [
             'class' => 'isavon\grid\ActionColumn',
-            'template' => '{active} {hidden} {images} {update} {delete}',
+            'template' => '{images} {update} {delete}',
             'urls' => function($model) {
                 return [
                     'images' => Url::to(['work-image/index', 'workid' => $model->id]),
